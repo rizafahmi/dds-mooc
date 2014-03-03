@@ -8,5 +8,6 @@ preserve-inputs
 iron-router
 accounts-base
 accounts-password
-accounts-ui
 bootstrap-3
+moment
+accounts-ui-bootstrap-3

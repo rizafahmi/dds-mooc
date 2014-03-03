@@ -1,5 +1,21 @@
 <template name="homepage">
-  <section class="content">
-    <h2>Welcome to the homepage!</h2>
-  </section>
+
+  <div class="container-fluid">
+      <div class="jumbotron">
+        <h1>HarukaEdu.com</h1>
+        <p>Kelas online kami terdiri dari berbagai macam mata kuliah popular yang dapat membantu untuk terus meningkatkan pengetahuan anda. Silabus kelas online kami menekankan baik pengetahuan teori maupun praktikal sehingga anda dapat langsung menerapkan ilmu yang anda pelajari dalam bisnis dan pekerjaan anda sehari-hari.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="featured-courses">
+            {{> featuredCourses}}
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="new-courses">
+            {{> newCourses }}
+          </div>
+        </div>
+      </div>
+  </div><!-- /contailer-fluid -->
 </template>

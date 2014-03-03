@@ -1,0 +1,14 @@
+<template name="newCourses">
+<div class="panel panel-primary">
+  <div class="panel-heading text-center">New Courses</div>
+  <div class="panel-body">
+    <div class="row">
+    
+      {{#each courses}}
+        {{> courseItem}}
+      {{/each}}
+
+    </div>
+  </div>
+</div>
+</template>
